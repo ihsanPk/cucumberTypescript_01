@@ -1,0 +1,63 @@
+{
+  "name": "QuinCTest",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run server\" ",
+    "server": "node node_modules/ng2f-server/server.js",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "@angular/common": "~2.2.0",
+    "@angular/compiler": "~2.2.0",
+    "@angular/core": "~2.2.0",
+    "@angular/forms": "~2.2.0",
+    "@angular/http": "~2.2.0",
+    "@angular/platform-browser": "~2.2.0",
+    "@angular/platform-browser-dynamic": "~2.2.0",
+    "@angular/router": "~3.2.0",
+    "@angular/upgrade": "~2.2.0",
+    "@types/jasmine": "^3.3.12",
+    "core-js": "~2.4.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasminewd2": "^2.2.0",
+    "js-yaml": "^3.13.1",
+    "ng2f-bootstrap": "~0.0.4",
+    "ng2f-server": "~0.2.3",
+    "protractor-dev": "^0.23.6",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.40",
+    "tostr": "^0.1.0",
+    "zone.js": "~0.6.26"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/core-js": "~0.9.34",
+    "@types/cucumber": "^4.0.5",
+    "@types/node": "^6.0.118",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "concurrently": "2.2.0",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "jasmine": "^3.4.0",
+    "multiple-cucumber-html-reporter": "^1.11.6",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.7",
+    "protractor-cucumber-framework": "^6.1.1",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5",
+    "webdriver-manager": "^13.0.0"
+  },
+  "repository": {}
+}

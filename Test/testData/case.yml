@@ -1,0 +1,24 @@
+Default: &Default
+  casename: Default
+  reference: AutoRef
+  description: Created by Automation
+  descriptionfile: Created by Automation
+  casefolderdir: C:\projects
+  incasefolderyesno: yes
+  databasedir:
+  processingprofile:
+  processingprofiledropdown: forensic
+  processingprofilecustomize_yesno:
+  processingmanager: localhost
+  opencase_yesno: no
+
+Automation:
+  <<: *Default
+  casename: AutomationCase
+  processingprofiledropdown: forensic
+  
+case1002:
+  <<: *Default
+  casename: Quinccasenewone1104
+  processingprofiledropdown: forensic
+  

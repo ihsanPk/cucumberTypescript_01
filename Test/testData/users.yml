@@ -1,0 +1,28 @@
+admin:
+  username: Administrator
+  password: abc123
+  newPassword: abc
+LocationAdmin1:
+  username: Maria
+  password: Sharapova
+  newPassword: abc
+CR1user:
+  username: automationCR1user
+  password: autopsw
+  newPassword: abc
+LocationAdmin3:
+  username: a
+  password: abce
+  newPassword: abd
+A1:
+  username: A1
+  password: abc123
+  newPassword: abc
+A2:
+  username: A2
+  password: abc123
+  newPassword: abc
+
+LocationAdmin4:
+  username: b
+  password: b

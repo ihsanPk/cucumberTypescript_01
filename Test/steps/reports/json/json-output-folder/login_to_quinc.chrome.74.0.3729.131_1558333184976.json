@@ -1,0 +1,179 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login To QuinC",
+    "line": 1,
+    "id": "login-to-quinc",
+    "tags": [],
+    "uri": "..\\features\\login.feature",
+    "elements": [
+      {
+        "id": "login-to-quinc;login-to-quinc",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login to QuinC",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on \"http://offshr1-win10:4443/LoginPage.html\" page",
+            "match": {
+              "location": "LoginSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 901000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Login to QuinC with \"admin\"",
+            "match": {
+              "location": "LoginSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I clicked on process data",
+            "match": {
+              "location": "DashboardSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I log out",
+            "match": {
+              "location": "LoginSteps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-to-quinc;login-to-quinc",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login to QuinC",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on \"http://offshr1-win10:4443/LoginPage.html\" page",
+            "match": {
+              "location": "LoginSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Login to QuinC with \"CR1user\"",
+            "match": {
+              "location": "LoginSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79938000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I clicked on process data",
+            "match": {
+              "location": "DashboardSteps.ts:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 63000000,
+              "error_message": "ElementNotVisibleError: element not interactable\n  (Session info: chrome=74.0.3729.131)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\ediscovery.ADLAB\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\ediscovery.ADLAB\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\ediscovery.ADLAB\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\ediscovery.ADLAB\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\ediscovery.ADLAB\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\ediscovery.ADLAB\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at DashboardPage.<anonymous> (C:\\Ihsan\\QuinCTest\\test\\Pages\\DashboardPage.ts:34:32)\n    at step (C:\\Ihsan\\QuinCTest\\test\\Pages\\DashboardPage.js:45:23)\n    at Object.next (C:\\Ihsan\\QuinCTest\\test\\Pages\\DashboardPage.js:26:53)\n    at C:\\Ihsan\\QuinCTest\\test\\Pages\\DashboardPage.js:20:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Ihsan\\QuinCTest\\test\\Pages\\DashboardPage.js:16:12)\n    at DashboardPage.clickProcessData (C:\\Ihsan\\QuinCTest\\test\\Pages\\DashboardPage.js:90:16)\n    at Object.<anonymous> (C:\\Ihsan\\QuinCTest\\test\\steps\\DashboardSteps.ts:24:21)\n    at step (C:\\Ihsan\\QuinCTest\\test\\steps\\DashboardSteps.js:32:23)\n    at Object.next (C:\\Ihsan\\QuinCTest\\test\\steps\\DashboardSteps.js:13:53)\n    at C:\\Ihsan\\QuinCTest\\test\\steps\\DashboardSteps.js:7:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Ihsan\\QuinCTest\\test\\steps\\DashboardSteps.js:3:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I log out",
+            "match": {
+              "location": "LoginSteps.ts:33"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "74.0.3729.131"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

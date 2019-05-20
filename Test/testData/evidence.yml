@@ -1,0 +1,434 @@
+Default: &Default
+  evidencetype: Acquired Image
+  evidence_path: \\devshare\Devshare\FTK_Team\Automation\ImageTypes\001\precious.001
+  evidence_id_name: Default
+  evidence_description: Default Description
+  evidence_group:
+  evidence_timezone:
+
+AcquiredImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\devshare\Devshare\FTK_Team\Automation\ImageTypes\001\precious.001
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+IndividualFile:
+  <<: *Default
+  evidencetype: Individual Files
+  evidence_path: \\devshare\devshare\FTK_Team\Automation\IndividualFiles\3ProductLineITLead-Role.doc
+  evidence_id_name: Individual Files
+  evidence_description: Individual Files added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+AllImagesinDirectory:
+  <<: *Default
+  evidencetype: All Images in Directory
+  evidence_path: \\devshare\Devshare\FTK_Team\Automation\Small
+  evidence_id_name: All Images in Directory
+  evidence_description: All Images in Directory added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+ContentsofaDirectory:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\devshare\Devshare\FTK_Team\Automation\ImageTypes\BasicDocs
+  evidence_id_name: Contents of a Directory
+  evidence_description: Contents of a Directory added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+ContentsofaDirectoryRoot:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: C:\Automation\Evidence\BasicDocs
+  evidence_id_name: Contents of a Directory
+  evidence_description: Contents of a Directory added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+ContentsofaDirectoryUNC:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.7.107\c$\Automation\Evidence\BasicDocs
+  evidence_id_name: Contents of a Directory
+  evidence_description: Contents of a Directory added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+AddLogicalDrive:
+  <<: *Default
+  evidencetype: Logical Drive
+  evidence_path: I:\
+  evidence_id_name: Logical Drive
+  evidence_description: Logical Drive added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+CerberusAcquiredImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\devshare\devshare\FTK_Team\Automation\ImageTypes\Cerberus\Cerberus.ad1
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+CerberusLogicalImage:
+  <<: *Default
+  evidencetype: Logical Drive
+  evidence_path:
+  evidence_id_name: Logical Drive
+  evidence_description: Logical Drive added by Automation
+
+Credant:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\devshare\devshare\FTK_Team\Automation\ImageTypes\CredantOnline\credant_encrypted.ad1
+  evidence_id_name: Acquired Image
+  evidence_description: Credant Image added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+CredantOffline:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\devshare\devshare\FTK_Team\Automation\ImageTypes\CredantOffline\credantthumbdrive.001
+  evidence_id_name: Acquired Image
+  evidence_description: Credant Image added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+ecryptfs_ubuntu:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\devshare\Devshare\FTK_Team\Automation\IndividualFiles\ecryptfs\secure
+  evidence_id_name: Contents of a Directory
+  evidence_description: Contents of a Directory added by Automation
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+
+chat_android_whatsapp:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\devshare\devshare\FTK_Team\Automation\whatsapp_only\Android\whatsapp_android
+  evidence_id_name: WhatsApp Android
+  evidence_description: Whatsapp Android added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+whatsappiosChatsE:
+  <<: *Default
+  evidencetype: All Images in Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\iOS\WhatsApp
+  evidence_id_name: WhatsApp IOS
+  evidence_description: Whatsapp IOS added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+InstagramChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Android\Android Instagram
+  evidence_id_name: InstagramChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+AndroidSMSChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Android\AndroidSMS
+  evidence_id_name: AndroidSMSChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+KikAndroidChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Android\Kik
+  evidence_id_name: KikAndroidChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+
+PidginChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Pidgin
+  evidence_id_name: PidginChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+
+ViberAndroidChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Android\viber
+  evidence_id_name: ViberAndroidChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+hangoutsChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Android\Hangouts
+  evidence_id_name: hangoutsChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+wechatandroidChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Android\wechat
+  evidence_id_name: wechatandroidChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+skypechatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\Skype
+  evidence_id_name: skypechatsE
+  evidence_description: InstagramChats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+wechatiosChatsE:
+  <<: *Default
+  evidencetype: Contents of a Directory
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\Chat_Messages_Consolidation\iOS\wechat_ios\wechat_ios
+  evidence_id_name: wechatiosChatsE
+  evidence_description: Chats added by Automation
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+#Add Image Types test cases:
+001Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\001\precious.001
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+1Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\1\ADC_FLOPPY.1
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+AD1Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\adimage01\Target_A.ad1
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+
+AFFImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\AFF\clampet18.aff
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+
+CUEImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\CUE\tmm.cue
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+CCDImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\CCD\tmm.ccd
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+DDImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\DD\daylight.dd
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+DMGImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\DMG\JoMarshall.dmg
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+IMAImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\IMA\AD-Lab1.IMA
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+IMGImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\IMG\initrd-2.6.9-1.667.img
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+IMZImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\IMZ\test.imz
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+ISOImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\ISO\knoppix-imager_2006-02-09.iso
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+L01Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\L01\mantooth25.L01
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+MDSImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\MDS\TMM.mds
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+MPEAD1Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\MPE\iPhone_5\iPhone_5.ad1
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+NRGImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\NRG\Caldera_LTP_cut0.nrg
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+PXIImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\PXI\Caldera.pxi
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+S01Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\S01\MAC_GPT_DRIVE.s01
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+VC4Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\VC4\tmm.vc4
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+VDIImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\VDI\TinyCore1.1.0.32.vdi
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+VFDImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\VFD\DOS_Muffin_BootDisk.vfd
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+VHDImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\VHD\disk2.vhd
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+VMDKImage:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\VMDK\Windows_2000_Professional.vmdk
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+YAFFS1Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\YAFF_Images\da_yaffsimage.img.yaffs1
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+
+
+YAFFS2Image:
+  <<: *Default
+  evidencetype: Acquired Image
+  evidence_path: \\10.10.3.5\Collections_and_Data_Sets\YAFF_Images\da_mtd6.yaffs2
+  evidence_id_name: Acquired Image
+  evidence_description: Acquired Image added by Automation Test
+  evidence_group:
+  evidence_timezone: Mountain Time with Daylight Saving    (US - Denver)
+# Above files are Add Evidence Type files

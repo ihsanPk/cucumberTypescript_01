@@ -1,0 +1,114 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Working with Cases",
+    "line": 1,
+    "id": "working-with-cases",
+    "tags": [],
+    "uri": "..\\features\\case.feature",
+    "elements": [
+      {
+        "id": "working-with-cases;create-case",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Create Case",
+        "tags": [
+          {
+            "name": "@CreateCase",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on \"http://offshr1-win10:4443/LoginPage.html\" page",
+            "match": {
+              "location": "LoginSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Login to QuinC with \"admin\"",
+            "match": {
+              "location": "LoginSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I clicked on process data",
+            "match": {
+              "location": "DashboardSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I entered case name \"case1002\"",
+            "match": {
+              "location": "CreateCaseSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I log out",
+            "match": {
+              "location": "LoginSteps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "74.0.3729.131"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
